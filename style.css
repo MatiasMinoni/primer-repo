@@ -1,0 +1,18 @@
+body{background-color: rgb(114, 114, 114);}
+h1{text-align: center;}
+
+.parallax {
+    /* The image used */
+    background-image: url("/articulos/parallax.jpg");
+  
+    /* Set a specific height */
+    min-height: 300px;
+   
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+  }
+
