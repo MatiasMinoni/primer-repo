@@ -16,3 +16,45 @@ h1{text-align: center;}
 
   }
 
+
+    /* Lista footer */
+    .lista_footer{
+      box-shadow: none;
+      color: #f1f1f1;
+      list-style-type: none;
+      text-decoration:none;
+      list-style-type: none;
+      padding: 1px;
+      font-size: xx-large;
+      margin: 0px; 
+    
+    }
+      footer{
+        display: flex;
+        background-color: black;
+      color: white;
+    font-size: larger;
+    justify-content: flex-start;
+    
+    }
+    
+    
+    
+      .lista_footer:hover{
+        background-color: rgb(236, 236, 236);
+        color: rgb(0, 0, 0);
+      border-color: rgba(192, 190, 190, 0);
+      border-radius: 4px;
+     
+      }
+      *{
+        font-family: 'Lobster', cursive;
+      text-decoration: none;
+      list-style: none;
+      margin: 0;
+      
+      }
+
+  .row {row-gap: 10px;
+  column-gap: 10px;
+  }
